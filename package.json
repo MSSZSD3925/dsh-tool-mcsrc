@@ -1,0 +1,38 @@
+{
+  "name": "dsh-tool-mcsrc",
+  "version": "0.1.0",
+  "description": "DSH 工具：查询已解压的 Minecraft 反编译源码（找类、看成员、按正则搜行）。为模组开发省掉一遍遍手写 zip 解析脚本。",
+  "author": "deepseek",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "minecraft",
+    "modding",
+    "source"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSSZSD3925/dsh-tool-mcsrc.git"
+  },
+  "homepage": "https://github.com/MSSZSD3925/dsh-tool-mcsrc#readme",
+  "bugs": {
+    "url": "https://github.com/MSSZSD3925/dsh-tool-mcsrc/issues"
+  }
+}

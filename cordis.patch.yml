@@ -1,0 +1,5 @@
+# dsh-tool-mcsrc —— 挂载声明
+# 和 dsh-whale-widget 的 patch 同构：把自己的插件插入 profile 的配置树。
+- insert:
+    - id: dsh-tool-mcsrc
+      name: dsh-tool-mcsrc
